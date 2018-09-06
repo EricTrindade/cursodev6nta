@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+body{
+	font-family: helvetica;
+}
+p{
+	font-weight: bold;
+	
+}
+.ddp{
+	border: dashed 3px;
+	background-color: lightblue;
+}
+.ddp2{
+	border: dashed 3px;
+	background-color: lightcoral;
+}
+.ddp3{
+	border: dashed 3px;
+	background-color: lightgreen;		 
+}
+.dadospessoais{
+	background-color: lightblue;
+}
+.dadosprofissionais{
+	background-color: lightcoral;
+}
+.acao{
+	background-color: lightgreen;
+}
+.caixas{
+	background-color: khaki;
+}
+textarea{
+	height: 200px;
+	width: 1000px;
+}

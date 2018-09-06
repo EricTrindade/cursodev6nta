@@ -4,28 +4,59 @@
 <meta charset="ISO-8859-1">
 <title>Cadastre seu Curriculo</title>
 </head>
+<link href="Form.css" rel="stylesheet">
 <body>
-<h1>Formulário de cadastro</h1>
+	<center><h1>Formulário de cadastro</h1></center>
+<form action="cadastro.jsp">
+	<fieldset class="ddp">
+	
+		<legend class="dadospessoais">Dados pessoais</legend>
+		<p>
+			Nome: <input class="caixas" type="text" name="nome" required>
+		</p>
+		<p>
+			E-mail: <input class="caixas" type="text" name="email" required>
+		</p>
+		<p>
+			Cidade: <input class="caixas" type="text" name="cidade" required>
+		</p>
+		<p>
+			Estados: <select class="caixas" aria-label="estados" name="estados" id="estados"
+				title="Estado">
+				<option value="0">Escolha</option>
+				<option value="1">Pará</option>
+				<option value="2">São Paulo</option>
+			</select>
+		</p>
+	</fieldset>
+		<br>
 
-<fieldset>
-<legend>Dados pessoais</legend>
-<p>Nome:
-<input type="text" name="nome" placeholder="Nome" required></p>
-<p>E-mail:
-<input type="text" name="email" placeholder="enail" required></p>
-<p>Cidade:
-<input type="text" name="cidade" placeholder="cidade" required></p>
-<p>Estados:
-<select aria-label="estados" name="estados" id="estados" title="escolha" ></p>
-<option value="Escolha">Escolha</option>
-<option value="Pará">Pará</option>
-<option value="São Paulo">São Paulo</option>
+	<fieldset class="ddp2">
 
+		<legend class="dadosprofissionais">Dados profissionais</legend>
+		<p>Cargo pretendido:</p>
+		<input type="radio" name="Analista" value="Analista de sistemas">Analista de sistemas 
+		<input type="radio" name="Analista"value="Analista da banco de dados">Analista da banco de dados 
+		<input type="radio" name="Analista" value="Analista da suporte">Analista da suporte
 
-<legend>Dados profissionais</legend>
-<p>Cargo pretendido:</p>
-
+		<p>Tecnologias de interesse:</p>
+		<input type="checkbox" name="Java" value="Java">Java
+		<input type="checkbox" name="web" value="html-css">HTML, CSS
+		<input type="checkbox" name="JavaScript" value="JavaScript">JavaScript
+		<input type="checkbox" name="sql" value="sql">SQL
+		
+		<p>Mini Currículo:</p>
+		<textarea class="caixas" ></textarea>
 
 </fieldset>
+<br>
+<fieldset class="ddp3">
+
+		<legend class="acao">Ações</legend>
+		<input type="Submit" value="Enviar">
+		<input type="reset" value="Limpar">
+
+</fieldset>
+</form>
 </body>
 </html>
