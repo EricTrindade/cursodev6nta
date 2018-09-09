@@ -4,7 +4,6 @@ body{
 }
 p{
 	font-weight: bold;
-	
 }
 .ddp{
 	border: dashed 3px;
@@ -16,7 +15,8 @@ p{
 }
 .ddp3{
 	border: dashed 3px;
-	background-color: lightgreen;		 
+	background-color: lightgreen; 
+	text-align: center;
 }
 .dadospessoais{
 	background-color: lightblue;
@@ -33,4 +33,22 @@ p{
 textarea{
 	height: 200px;
 	width: 1000px;
+}
+#botao1{
+	font-weight: bold;
+	padding: 10px;
+	background-color:#088A08;
+	color: white;
+	margin-left: 20px;
+	border-color: white;
+	
+}
+#botao2{
+	font-weight: bold;
+	padding: 10px;
+	background-color:#FF8000;
+	color: white;
+	border-color: white;
+	margin-left: 20px;
+	
 }
