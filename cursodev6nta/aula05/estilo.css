@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: black;
+}
+p{
+	color: pink;
+	font-size: 100px;
+}
+
+

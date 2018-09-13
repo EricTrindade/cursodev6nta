@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="estilo.css" rel="stylesheet">
+<meta charset="ISO-8859-1">
+<title>Calculadora</title>
+<script type="text/javascript" src="page.js"></script>
+</head>
+<body>
+
+
+<div>
+<div class="numeros">#1: <input class="numeross" id="num1" type="number" name="numero1" required></div>
+
+<div class="numeros">#2: <input class="numeross" id="num2" type="number" name="numero2" required></div>
+</div>
+
+<div class="botoes" ><input class="botoess" type="button" onclick="soma()" name="soma" value="+"></div>
+<div class="botoes" ><input class="botoess" type="button" onclick="subtracao()" name="subtracao" value="-"></div>
+<div class="botoes" ><input class="botoess" type="button" name="multiplicacao" value="*"></div>
+<div class="botoes" ><input class="botoess" type="button" name="divisao" value="/"></div>
+
+<h2>Resultado: <span id="resultado"></span></h2>
+</body>
+</html>

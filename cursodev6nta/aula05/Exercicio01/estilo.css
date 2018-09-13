@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+.numeross{
+	background-color: #F6F5A4;
+	color: black;
+	
+}
+input{
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	
+
+}
+.numeros{
+	padding-bottom: 10px; 
+}
+.botoes{
+	padding-left: 5px;
+	display: inline; 
+}
+.botoess{
+	padding-right: 10px;
+	padding-left: 10px; 
+}
+h2{
+	color: red;
+}
