@@ -16,3 +16,20 @@ function calcQua(){
 	var resQuad= lado*lado;
 	document.getElementById("resQuad").value = resQuad;
 }
+function calcCirc(){
+	var raio = parseFloat(document.getElementById("raio").value);
+	var resCirc= 3.14*(Math.pow(raio,2));
+	document.getElementById("resCirc").value = resCirc;
+}
+
+function calcTrapezio(){
+	var bMaior = parseFloat(document.getElementById("baseMaior").value);
+	var bMenor = parseFloat(document.getElementById("baseMenor").value);
+	var alturaTrap = parseFloat(document.getElementById("alturaTrap").value);
+	
+	var resTrapezio= ((bMaior+bMenor)*alturaTrap)/2;
+	document.getElementById("resTrapezio").value = resTrapezio;
+	
+	
+	
+}

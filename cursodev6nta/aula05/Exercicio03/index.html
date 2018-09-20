@@ -11,11 +11,17 @@
 		<tr>
 			<th class="centra">Triângulo</th>
 			<th class="centra">Quadrado</th>
+			<th class="centra">Circulo</th>
+			<th class="centra">Trapézio</th>
+			<th class="centra">Retângulo</th>
 		</tr>
 		<tr>
 			<th><img alt="" src="img\21.jpg" width="250" height="250"></th>
 			<th><img alt="" src="img\22.png" width="250" height="250"></th>
-		</tr>
+			<th><img alt="" src="img\23.png" width="250" height="250"></th>
+ 			<th><img alt="" src="img\24.png" width="250" height="250"></th>
+ 			<th><img alt="" src="img\25.png" width="250" height="250"></th>
+ 		</tr>
 		<tr>
 			<td>Base:<input class="base" id="base"
 					type="number"><br> Altura:<input
@@ -34,7 +40,31 @@
 				value="Calc. área" onclick="calcQua()"></p>
 			Área:<input id="resQuad" type="text" disabled="disabled">
 				</td>
+				
+				
+			<td>Raio:<input id="raio" type="number">
+			<p class="centra"><input id="botao" type="Submit"
+				value="Calc. área" onclick="calcCirc()"></p>
+			Área:<input id="resCirc" type="text" disabled="disabled">
+				</td>
+			
+			
+			
+			
+			
+			<td>
+			Base Maior:<input id="baseMaior" type="number">
+			
+			Base Menor:<input id="baseMenor" type="number">
+			
+			Altura:<input id="alturaTrap" type="number">
+			<p class="centra"><input id="botao" type="Submit"
+				value="Calc. área" onclick="calcTrapezio()"></p>
+			Área:<input id="resTrapezio" type="text" disabled="disabled">
+				</td>
+			
 		</tr>
 	</table>
+	
 </body>
 </html>
