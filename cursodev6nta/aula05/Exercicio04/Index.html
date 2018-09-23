@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Zequinha Padaria</title>
+</head>
+<script type="text/javascript" src="page.js"></script>
+<link href="estilo.css" rel="stylesheet">
+<body>
+
+<h2>PADOCA DO SEU ZÉ</h2>
+
+<h3>Comanda do Cliente</h3>
+
+<div class="distancia">Produto: <select class="caixas" id="produto" >
+				<option value="0">Escolha</option>
+				<option value="Pão">Pão</option>
+				<option value="2">Sonho</option>
+				<option value="3">Brigadeiro</option>
+				<option value="4">Salgados</option></select></div>
+				
+				<div class="distancia">Quantidade: <select class="caixas"  id="quantidade" >
+				<option value="0">Escolha</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option></select></div>
+				
+				<div class="distancia">Preço: </div>
+				<div class="distancia">Sub-total: </div>
+<br>
+
+		<div class="divisao">	<center><input id="botao" type="Submit" value="Adicionar ao Carrinho" onclick="colocarCarrinho()">
+
+			<input class="centra" id="botao" type="reset" value="Limpar Comanda" onclick="calctria()"></center>
+</div>
+
+<div class="borda"><a>Descrição</a><a>Quantidade</a><a>Preço</a><a>Sub-total</a></div>
+<br>
+<div class="borda"><a id="tabProduto"></a><a></a><a></a><a></a></div>
+<br>
+<div class="borda"><a></a><a></a><a></a><a></a></div>
+</body>
+</html>
