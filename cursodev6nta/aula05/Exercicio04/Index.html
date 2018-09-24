@@ -12,7 +12,7 @@
 
 <h3>Comanda do Cliente</h3>
 
-<div class="distancia">Produto: <select class="caixas" id="produto" >
+<div class="distancia">Produto: <select onlick="calcPreco()" class="caixas" id="produto" >
 				<option value="0">Escolha</option>
 				<option value="Pão">Pão</option>
 				<option value="2">Sonho</option>
@@ -32,18 +32,18 @@
 				<option value="9">9</option>
 				<option value="10">10</option></select></div>
 				
-				<div class="distancia">Preço: </div>
-				<div class="distancia">Sub-total: </div>
+				<div class="distancia">Preço: <span id="precoUnidade"></span></div>
+				<div class="distancia">Sub-total: <span id="precoTotal"></span></div>
 <br>
 
-		<div class="divisao">	<center><input id="botao" type="Submit" value="Adicionar ao Carrinho" onclick="colocarCarrinho()">
+		<div class="divisao">	<center><input onclick="colocarCarrinho()" type="Submit" value="Adicionar ao Carrinho" >
 
-			<input class="centra" id="botao" type="reset" value="Limpar Comanda" onclick="calctria()"></center>
+			 <input class="centra" type="reset" value="Limpar Comanda"></center>
 </div>
 
 <div class="borda"><a>Descrição</a><a>Quantidade</a><a>Preço</a><a>Sub-total</a></div>
 <br>
-<div class="borda"><a id="tabProduto"></a><a></a><a></a><a></a></div>
+<div class="borda"><span id="tabProduto"></span><a></a><a></a><a></a></div>
 <br>
 <div class="borda"><a></a><a></a><a></a><a></a></div>
 </body>

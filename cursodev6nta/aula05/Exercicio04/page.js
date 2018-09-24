@@ -9,3 +9,11 @@ function colocarCarrinho(){
 	alert(produto);
 }
 
+function  calcPreco(){
+	var produto = document.getElementById("produto").value;
+	if(produto == 'pão'){
+		alert("R$2,00");
+	}else{
+		alert("R$4,00");
+	}
+}

@@ -6,7 +6,7 @@
 function calctria(){
 	var base = parseFloat(document.getElementById("base").value);
 	var altura = parseFloat(document.getElementById("altura").value);
-	var resTria= base*altura;
+	var resTria= (base*altura)/2;
 	document.getElementById("resTria").value =resTria;
 }
 
